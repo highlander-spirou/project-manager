@@ -1,0 +1,8 @@
+.button {
+    transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+.button:hover {
+    transition: .3s;
+}

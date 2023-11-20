@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.animate-timer {
+    position: relative;
+    animation: animatetop 1s infinite;
+}
+
+@keyframes animatetop {
+    from {
+        top: -20px;
+    }
+
+    to {
+        top: 20px;
+    }
+}
